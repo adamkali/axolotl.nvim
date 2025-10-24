@@ -1,4 +1,4 @@
-# 🦎 axolotl.nvim
+![axolotl-head-simple](https://github.com/user-attachments/assets/53e04d93-5e59-4640-900e-d6d867613beb)
 
 A dark, axolotl-inspired colorscheme for Neovim based on the excellent [tokyonight.nvim](https://github.com/folke/tokyonight.nvim).
 
