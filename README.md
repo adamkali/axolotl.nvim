@@ -58,22 +58,24 @@ Here are some Languages that you may like using `axolotl.nvim` with
 
 ### Rust
 <img width="1880" height="1000" alt="Rust" src="https://github.com/user-attachments/assets/55d828ec-1b98-44e8-9c3d-ac0dd70dda2c" />
+
 ### React
 <img width="1880" height="1000" alt="React" src="https://github.com/user-attachments/assets/95b83fe1-fcd6-4131-ae0d-b74830279805" />
+
 ### Python
 <img width="1880" height="1000" alt="Python" src="https://github.com/user-attachments/assets/cdb32d19-2aa7-4f63-8a7e-7c707f663581" />
+
 ### Neorg Note Taking
 <img width="1880" height="1000" alt="Neorg " src="https://github.com/user-attachments/assets/38b246e4-e859-453d-bef5-85d253584f28" />
+
 ### Lua
 <img width="1880" height="1000" alt="lua" src="https://github.com/user-attachments/assets/b27eb94b-95d5-4a6a-8605-4ebeae7b03ff" />
+
 ### Golang
 <img width="1880" height="1000" alt="Golang" src="https://github.com/user-attachments/assets/f49574e6-9e9d-4700-ad53-40f42dd94799" />
+
 ### Gleam
 <img width="1880" height="1000" alt="gleam" src="https://github.com/user-attachments/assets/171fdc0b-11d3-4192-a2ae-6394bc154acd" />
-
-
-
-
 
 ## ⚙️ Configuration
 ```lua
