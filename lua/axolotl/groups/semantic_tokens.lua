@@ -14,7 +14,7 @@ function M.get(c)
     ["@lsp.type.escapeSequence"]               = { link = "@string.escape" },
     ["@lsp.type.formatSpecifier"]              = { link = "@markup.list" },
     ["@lsp.type.generic"]                      = { link = "@variable" },
-    ["@lsp.type.interface"]                    = { fg = util.darken(c.blue1, 0.7) },
+    ["@lsp.type.interface"]                    = { fg = c.light_blue },
     ["@lsp.type.keyword"]                      = { link = "@keyword" },
     ["@lsp.type.lifetime"]                     = { link = "@keyword.storage" },
     ["@lsp.type.namespace"]                    = { link = "@module" },

@@ -12,9 +12,9 @@ function M.setup(colors, opts)
   -- Editor highlights
   groups.ColorColumn = { bg = colors.bg_visual }
   groups.Conceal = { fg = colors.dark5 }
-  groups.Cursor = { fg = colors.bg, bg = colors.fg }
-  groups.lCursor = { fg = colors.bg, bg = colors.fg }
-  groups.CursorIM = { fg = colors.bg, bg = colors.fg }
+  groups.Cursor = { fg = colors.black, bg = colors.cyan }
+  groups.lCursor = { fg = colors.black, bg = colors.cyan }
+  groups.CursorIM = { fg = colors.black, bg = colors.cyan }
   groups.CursorColumn = { bg = colors.bg_highlight }
   groups.CursorLine = { bg = colors.bg_highlight }
   groups.Directory = { fg = colors.blue }
@@ -23,8 +23,8 @@ function M.setup(colors, opts)
   groups.DiffDelete = { bg = colors.diff.delete }
   groups.DiffText = { bg = colors.diff.text }
   groups.EndOfBuffer = { fg = colors.bg }
-  groups.TermCursor = { fg = colors.bg, bg = colors.fg }
-  groups.TermCursorNC = { fg = colors.bg, bg = colors.fg_dark }
+  groups.TermCursor = { fg = colors.black, bg = colors.cyan }
+  groups.TermCursorNC = { fg = colors.black, bg = colors.cyan }
   groups.ErrorMsg = { fg = colors.error }
   groups.VertSplit = { fg = colors.border }
   groups.WinSeparator = { fg = colors.border, bold = true }
@@ -76,7 +76,7 @@ function M.setup(colors, opts)
   groups.WinBarNC = { link = "StatusLineNC" }
 
   -- Syntax highlighting
-  groups.Comment = vim.tbl_extend("force", { fg = colors.comment }, opts.styles.comments or {})
+  groups.Comment = vim.tbl_extend("force", { fg = colors.cyan_muted }, opts.styles.comments or {})
   groups.Constant = { fg = colors.orange }
   groups.String = { fg = colors.green }
   groups.Character = { fg = colors.green }
@@ -122,7 +122,7 @@ function M.setup(colors, opts)
   groups.DiagnosticWarn = { fg = colors.warning }
   groups.DiagnosticInfo = { fg = colors.info }
   groups.DiagnosticHint = { fg = colors.hint }
-  groups.DiagnosticUnnecessary = { fg = colors.terminal_black }
+  groups.DiagnosticUnnecessary = { fg = colors.cyan_muted }
   groups.DiagnosticVirtualTextError = { bg = util.darken(colors.error, 0.1), fg = colors.error }
   groups.DiagnosticVirtualTextWarn = { bg = util.darken(colors.warning, 0.1), fg = colors.warning }
   groups.DiagnosticVirtualTextInfo = { bg = util.darken(colors.info, 0.1), fg = colors.info }

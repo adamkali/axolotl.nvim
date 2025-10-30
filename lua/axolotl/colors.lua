@@ -50,6 +50,7 @@ function M.setup()
   c.blue7 = util.lighten(c.secondary, 0.9)
   
   c.cyan = util.mix(c.secondary, c.tertiary, 0.5)
+  c.cyan_muted = util.desaturate(c.cyan, 0.6)
   c.green = util.mix(c.quaternary, c.secondary, 0.3)
   c.green1 = util.lighten(c.green, 0.2)
   c.green2 = util.darken(c.green, 0.2)
@@ -65,6 +66,12 @@ function M.setup()
   
   c.teal = util.mix(c.secondary, c.green, 0.5)
   c.yellow = util.lighten(c.quaternary, 0.2)
+  
+  -- Light blue for XML/JSON tags and interface definitions
+  c.light_blue = "#AFDCEC"
+  
+  -- Lighter primary color for cursors and selections
+  c.primary_light = util.lighten(c.primary, 0.4)
   
   -- Special colors
   c.git = {

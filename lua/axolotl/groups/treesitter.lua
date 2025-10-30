@@ -61,7 +61,7 @@ function M.get(c, opts)
     ["@markup.list.unchecked"]      = { fg = c.blue },
     ["@markup.math"]                = { link = "Special" },
     ["@markup.raw"]                 = { link = "String" },
-    ["@markup.raw.markdown_inline"] = { bg = c.terminal_black, fg = c.blue },
+    ["@markup.raw.markdown_inline"] = { bg = c.terminal_black, fg = c.cyan_muted },
     ["@markup.strikethrough"]       = { strikethrough = true },
     ["@markup.strong"]              = { bold = true },
     ["@markup.underline"]           = { underline = true },
@@ -84,7 +84,7 @@ function M.get(c, opts)
     ["@tag"]                        = { link = "Label" },
     ["@tag.attribute"]              = { link = "@property" },
     ["@tag.delimiter"]              = { link = "Delimiter" },
-    ["@tag.delimiter.tsx"]          = { fg = util.darken(c.blue, 0.7) },
+    ["@tag.delimiter.tsx"]          = { fg = c.light_blue },
     ["@tag.tsx"]                    = { fg = c.red },
     ["@tag.javascript"]             = { fg = c.red },
     ["@type"]                       = { link = "Type" },
@@ -95,7 +95,7 @@ function M.get(c, opts)
     ["@variable.builtin"]           = { fg = c.red },
     ["@variable.member"]            = { fg = c.green1 },
     ["@variable.parameter"]         = { fg = c.yellow },
-    ["@variable.parameter.builtin"] = { fg = util.darken(c.yellow, 0.8) },
+    ["@variable.parameter.builtin"] = { fg = c.cyan_muted },
   }
 
   -- Create rainbow colors for markdown headers using our color palette

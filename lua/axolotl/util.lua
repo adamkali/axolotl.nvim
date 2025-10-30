@@ -47,4 +47,18 @@ function M.mix(hex1, hex2, amount)
   return M.rgb_to_hex(r, g, b)
 end
 
+function M.desaturate(hex, amount)
+  local r, g, b = M.hex_to_rgb(hex)
+  
+  -- Calculate grayscale value using luminance formula
+  local gray = math.floor(0.299 * r + 0.587 * g + 0.114 * b)
+  
+  -- Mix original color with gray
+  r = math.floor(r * (1 - amount) + gray * amount)
+  g = math.floor(g * (1 - amount) + gray * amount)
+  b = math.floor(b * (1 - amount) + gray * amount)
+  
+  return M.rgb_to_hex(r, g, b)
+end
+
 return M
